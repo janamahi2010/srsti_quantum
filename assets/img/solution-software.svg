@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="swBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060f30"/>
+      <stop offset="100%" stop-color="#0a1a4d"/>
+    </linearGradient>
+    <linearGradient id="swAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2231a"/>
+      <stop offset="100%" stop-color="#f5851f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#swBg)"/>
+
+  <!-- code panel -->
+  <rect x="90" y="80" width="620" height="440" rx="16" fill="#101d55" stroke="#2a3a8c" stroke-width="1.5"/>
+  <rect x="90" y="80" width="620" height="46" rx="16" fill="#16297a"/>
+  <circle cx="122" cy="103" r="6" fill="#e2231a"/>
+  <circle cx="144" cy="103" r="6" fill="#f5851f"/>
+  <circle cx="166" cy="103" r="6" fill="#8fa6ff"/>
+
+  <!-- quantum circuit diagram lines (qubit wires) -->
+  <g stroke="#8fa6ff" stroke-width="2" stroke-opacity="0.55">
+    <line x1="140" y1="190" x2="660" y2="190"/>
+    <line x1="140" y1="250" x2="660" y2="250"/>
+    <line x1="140" y1="310" x2="660" y2="310"/>
+    <line x1="140" y1="370" x2="660" y2="370"/>
+  </g>
+
+  <!-- gate boxes -->
+  <rect x="200" y="170" width="44" height="40" rx="6" fill="url(#swAccent)"/>
+  <text x="222" y="196" font-family="Poppins, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="700">H</text>
+
+  <circle cx="330" cy="250" r="7" fill="#ffffff"/>
+  <line x1="330" y1="250" x2="330" y2="310" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="330" cy="310" r="14" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+  <line x1="322" y1="310" x2="338" y2="310" stroke="#ffffff" stroke-width="2.5"/>
+  <line x1="330" y1="302" x2="330" y2="318" stroke="#ffffff" stroke-width="2.5"/>
+
+  <rect x="420" y="230" width="44" height="40" rx="6" fill="#2a3a8c"/>
+  <text x="442" y="256" font-family="Poppins, sans-serif" font-size="16" fill="#ffb26b" text-anchor="middle" font-weight="700">Rz</text>
+
+  <rect x="500" y="350" width="44" height="40" rx="6" fill="url(#swAccent)"/>
+  <text x="522" y="376" font-family="Poppins, sans-serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="700">X</text>
+
+  <circle cx="600" cy="190" r="7" fill="#ffffff"/>
+  <line x1="600" y1="190" x2="600" y2="370" stroke="#ffffff" stroke-width="2"/>
+  <circle cx="600" cy="370" r="14" fill="none" stroke="#ffffff" stroke-width="2.5"/>
+  <line x1="592" y1="370" x2="608" y2="370" stroke="#ffffff" stroke-width="2.5"/>
+  <line x1="600" y1="362" x2="600" y2="378" stroke="#ffffff" stroke-width="2.5"/>
+
+  <!-- meter icons at the end -->
+  <g transform="translate(660,190)">
+    <rect x="-16" y="-16" width="32" height="32" rx="6" fill="none" stroke="#f5851f" stroke-width="2"/>
+    <path d="M-8 8 A 8 8 0 0 1 8 8" fill="none" stroke="#f5851f" stroke-width="2"/>
+    <line x1="0" y1="8" x2="6" y2="-6" stroke="#f5851f" stroke-width="2"/>
+  </g>
+
+  <!-- code snippet lines below -->
+  <g stroke-linecap="round">
+    <line x1="140" y1="450" x2="330" y2="450" stroke="#8fa6ff" stroke-width="4" stroke-opacity="0.4"/>
+    <line x1="140" y1="470" x2="420" y2="470" stroke="#f5851f" stroke-width="4" stroke-opacity="0.55"/>
+    <line x1="140" y1="490" x2="260" y2="490" stroke="#8fa6ff" stroke-width="4" stroke-opacity="0.4"/>
+  </g>
+</svg>

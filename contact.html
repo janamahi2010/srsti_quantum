@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - Srsti Quantum</title>
+<meta name="description" content="Get in touch with Srsti Quantum for quantum hardware manufacturing, fabrication, packaging, characterization, and partnerships.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img class="logo-mark" src="assets/img/srsti-logo.svg" alt="Srsti Quantum logo">
+      <span class="logo-text">Srsti <span>Quantum</span></span>
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="solutions.html" class="nav-link">Solutions</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="news.html" class="nav-link">News</a></li>
+        <li><a href="careers.html" class="nav-link">Careers</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Get In Touch</span>
+      <h1>Let's Talk Quantum</h1>
+      <p>Contact our team for quantum hardware manufacturing, fabrication services, packaging, characterization, or research partnerships.</p>
+      <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container contact-grid">
+
+      <div class="reveal">
+        <div class="section-head">
+          <span class="eyebrow">Send a Message</span>
+          <h2>Tell Us About Your Project</h2>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-status" id="formStatus" role="status"></div>
+
+          <div class="form-row">
+            <div class="form-group" id="group-name">
+              <label for="fullName">Full Name *</label>
+              <input type="text" id="fullName" name="fullName" placeholder="Jane Doe" autocomplete="name">
+              <span class="form-error">Please enter your full name.</span>
+            </div>
+            <div class="form-group" id="group-email">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" placeholder="jane@company.com" autocomplete="email">
+              <span class="form-error">Please enter a valid email address.</span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group" id="group-company">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" placeholder="Acme Inc. (optional)" autocomplete="organization">
+            </div>
+            <div class="form-group" id="group-interest">
+              <label for="interest">I'm Interested In *</label>
+              <select id="interest" name="interest">
+                <option value="">Select an option</option>
+                <option value="processors">Quantum Processors</option>
+                <option value="resonators">Microwave Resonators</option>
+                <option value="fabrication">Fabrication Services</option>
+                <option value="characterization">Characterization Services</option>
+                <option value="packaging">Packaging &amp; Bonding</option>
+                <option value="careers">Careers</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="form-error">Please choose a topic.</span>
+            </div>
+          </div>
+
+          <div class="form-group" id="group-message">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" placeholder="Tell us a bit about what you're working on..."></textarea>
+            <span class="form-error">Please enter a message (at least 10 characters).</span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        </form>
+      </div>
+
+      <div class="info-block reveal">
+        <div class="section-head">
+          <span class="eyebrow">Reach Us Directly</span>
+          <h2>Contact Information</h2>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div>
+            <h4>Headquarters</h4>
+            <p>4th Floor, Quantum Park, Whitefield, Bengaluru 560066, India</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.4 2.1L8 10.3a16 16 0 0 0 6 6l1.5-1.5a2 2 0 0 1 2.1-.4c1 .3 2 .5 3 .7a2 2 0 0 1 1.7 2z"/></svg></div>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 80 4567 1230</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg></div>
+          <div>
+            <h4>Email</h4>
+            <p>hello@srstiquantum.com</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon"><svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <div>
+            <h4>Office Hours</h4>
+            <p>Monday - Friday, 9:30 AM - 6:30 PM IST</p>
+          </div>
+        </div>
+
+        <div class="info-map">
+          <iframe src="https://www.google.com/maps?q=4th+Floor,+Quantum+Park,+Whitefield,+Bengaluru+560066,+India&output=embed" title="Srsti Quantum location - Whitefield, Bengaluru" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+        <img class="logo-mark" src="assets/img/srsti-logo.svg" alt="Srsti Quantum logo">
+        <span class="logo-text">Srsti <span>Quantum</span></span>
+      </a>
+      <p>Precision manufacturing, rigorous characterization, and trusted delivery for quantum hardware.</p>
+      <div class="footer-social">
+        <a href="#" data-social="linkedin" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.25h4.5V23H.24V8.25zM8.25 8.25h4.3v2.01h.06c.6-1.13 2.07-2.32 4.26-2.32 4.55 0 5.39 3 5.39 6.9V23h-4.5v-6.63c0-1.58-.03-3.62-2.2-3.62-2.2 0-2.54 1.72-2.54 3.5V23h-4.5V8.25z"/></svg></a>
+        <a href="#" data-social="twitter" aria-label="Twitter / X"><svg viewBox="0 0 24 24"><path d="M18.9 1.5h3.7l-8.1 9.3 9.5 12.7h-7.4l-5.8-7.6-6.6 7.6H.5l8.7-10-9.1-12h7.6l5.3 7 5.9-7zm-1.3 19.6h2L6.5 3.8h-2l13.1 17.3z"/></svg></a>
+        <a href="#" data-social="github" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5C5.6.5.5 5.6.5 12c0 5.1 3.3 9.4 7.9 11 .6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0c2.3-1.6 3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.6 7.9-5.9 7.9-11C23.5 5.6 18.4.5 12 .5z"/></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="solutions.html">Solutions</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li>Whitefield, Bengaluru 560066</li>
+        <li>hello@srstiquantum.com</li>
+        <li>+91 80 4567 1230</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-legal">
+    <p>© 2026 Srsti Quantum Technologies Pvt. Ltd. All rights reserved.</p>
+    <div class="footer-legal-links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Service</a>
+      <a href="security.html">Security</a>
+    </div>
+  </div>
+  <div class="footer-pattern" aria-hidden="true"></div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

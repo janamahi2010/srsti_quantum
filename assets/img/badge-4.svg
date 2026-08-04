@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <circle cx="80" cy="80" r="72" fill="none" stroke="#0a1a4d" stroke-width="4"/>
+  <g fill="none" stroke="#0a1a4d" stroke-width="2">
+    <ellipse cx="80" cy="60" rx="34" ry="13" transform="rotate(-20 80 60)"/>
+    <ellipse cx="80" cy="60" rx="34" ry="13" transform="rotate(40 80 60)"/>
+  </g>
+  <circle cx="80" cy="60" r="5" fill="#0a1a4d"/>
+  <text x="80" y="102" font-family="Poppins, sans-serif" font-size="13" font-weight="800" fill="#0a1a4d" text-anchor="middle" letter-spacing="1">IEEE</text>
+  <text x="80" y="117" font-family="Poppins, sans-serif" font-size="9" font-weight="600" fill="#0a1a4d" text-anchor="middle" letter-spacing="1">QUANTUM WG</text>
+  <text x="80" y="132" font-family="Poppins, sans-serif" font-size="9" font-weight="600" fill="#0a1a4d" text-anchor="middle" letter-spacing="1.5">ALIGNED</text>
+</svg>

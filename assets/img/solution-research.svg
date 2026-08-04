@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="rsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16297a"/>
+      <stop offset="100%" stop-color="#0a1a4d"/>
+    </linearGradient>
+    <linearGradient id="rsAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f5851f"/>
+      <stop offset="100%" stop-color="#e2231a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#rsBg)"/>
+  <circle cx="90" cy="500" r="90" fill="#e2231a" opacity="0.12"/>
+  <circle cx="700" cy="90" r="80" fill="#f5851f" opacity="0.12"/>
+
+  <!-- whiteboard / chart panel -->
+  <rect x="380" y="120" width="330" height="230" rx="14" fill="#eef1fb"/>
+  <g stroke="#c3cdf3" stroke-width="2">
+    <line x1="410" y1="300" x2="680" y2="300"/>
+    <line x1="410" y1="160" x2="410" y2="300"/>
+  </g>
+  <polyline points="420,270 460,230 500,250 540,190 580,210 620,150 660,170" fill="none" stroke="url(#rsAccent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#e2231a">
+    <circle cx="460" cy="230" r="5"/>
+    <circle cx="540" cy="190" r="5"/>
+    <circle cx="620" cy="150" r="5"/>
+  </g>
+
+  <!-- people silhouettes collaborating -->
+  <g transform="translate(230,430)">
+    <circle cx="0" cy="-58" r="30" fill="#ffd7ae"/>
+    <path d="M-46 40 C -46 -18, 46 -18, 46 40 Z" fill="url(#rsAccent)"/>
+  </g>
+  <g transform="translate(140,460)">
+    <circle cx="0" cy="-50" r="26" fill="#f3c199"/>
+    <path d="M-40 34 C -40 -14, 40 -14, 40 34 Z" fill="#16297a" stroke="#8fa6ff" stroke-width="2"/>
+  </g>
+  <g transform="translate(320,460)">
+    <circle cx="0" cy="-50" r="26" fill="#e3a97a"/>
+    <path d="M-40 34 C -40 -14, 40 -14, 40 34 Z" fill="#0a1a4d" stroke="#f5851f" stroke-width="2"/>
+  </g>
+
+  <!-- floating molecule / qubit connectors above the group -->
+  <g stroke="#8fa6ff" stroke-width="1.5" stroke-opacity="0.6" fill="#ffffff">
+    <line x1="150" y1="330" x2="210" y2="290"/>
+    <line x1="210" y1="290" x2="270" y2="330"/>
+    <line x1="270" y1="330" x2="330" y2="280"/>
+    <circle cx="150" cy="330" r="6"/>
+    <circle cx="210" cy="290" r="6"/>
+    <circle cx="270" cy="330" r="6"/>
+    <circle cx="330" cy="280" r="6"/>
+  </g>
+
+  <text x="400" y="410" font-family="Poppins, sans-serif" font-size="15" fill="#5b6ea8">Q</text>
+</svg>

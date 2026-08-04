@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  
+  
+
+  <defs>
+    <mask id="processor-mask-h">
+      <rect width="2000" height="2000" fill="white"></rect>
+      
+      <rect x="248" y="228" width="104" height="104" rx="14" fill="black"></rect>
+      
+      <rect x="276" y="152" width="8" height="76" rx="2" fill="black"></rect>
+      <rect x="316" y="152" width="8" height="76" rx="2" fill="black"></rect>
+      
+      <rect x="276" y="332" width="8" height="76" rx="2" fill="black"></rect>
+      <rect x="316" y="332" width="8" height="76" rx="2" fill="black"></rect>
+      
+      <rect x="152" y="256" width="96" height="8" rx="2" fill="black"></rect>
+      <rect x="152" y="296" width="96" height="8" rx="2" fill="black"></rect>
+      
+      <rect x="352" y="256" width="96" height="8" rx="2" fill="black"></rect>
+      <rect x="352" y="296" width="96" height="8" rx="2" fill="black"></rect>
+    </mask>
+  </defs>
+
+  
+  
+  
+  
+  
+  <g transform="translate(170,160) scale(0.693) translate(-300,-280)">
+    <g fill="#6D28D9">
+      
+      <rect x="160" y="140" width="280" height="280" rx="32" mask="url(#processor-mask-h)"></rect>
+
+      
+      <rect x="282" y="262" width="36" height="36" rx="3" transform="rotate(45, 300, 280)"></rect>
+
+      
+      <rect x="276" y="96" width="8" height="56" rx="4"></rect>
+      <rect x="316" y="96" width="8" height="56" rx="4"></rect>
+      <circle cx="280" cy="88" r="10"></circle>
+      <circle cx="320" cy="88" r="10"></circle>
+
+      
+      <rect x="276" y="408" width="8" height="56" rx="4"></rect>
+      <rect x="316" y="408" width="8" height="56" rx="4"></rect>
+      <circle cx="280" cy="472" r="10"></circle>
+      <circle cx="320" cy="472" r="10"></circle>
+
+      
+      <rect x="88" y="256" width="56" height="8" rx="4"></rect>
+      <rect x="88" y="296" width="56" height="8" rx="4"></rect>
+      <circle cx="80" cy="260" r="10"></circle>
+      <circle cx="80" cy="300" r="10"></circle>
+
+      
+      <rect x="456" y="256" width="56" height="8" rx="4"></rect>
+      <rect x="456" y="296" width="56" height="8" rx="4"></rect>
+      <circle cx="520" cy="260" r="10"></circle>
+      <circle cx="520" cy="300" r="10"></circle>
+    </g>
+  </g>
+
+  
+  
+  
+  <text x="400" y="173" text-anchor="start" font-family="&#39;Segoe UI&#39;, &#39;Helvetica Neue&#39;, Arial, sans-serif" font-size="112" font-weight="800" letter-spacing="8" fill="#6D28D9">QUBITECH</text>
+
+  
+  <rect x="402" y="192" width="240" height="2" rx="1" fill="#6D28D9"></rect>
+
+  
+  <text x="402" y="218" text-anchor="start" font-family="&#39;Segoe UI&#39;, &#39;Helvetica Neue&#39;, Arial, sans-serif" font-size="22" font-weight="500" letter-spacing="6" fill="#6D28D9">DESIGN · VALIDATE · DELIVER</text>
+</svg>
