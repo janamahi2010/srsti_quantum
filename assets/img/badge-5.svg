@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
-  <rect x="24" y="16" width="112" height="128" rx="12" fill="none" stroke="#0a1a4d" stroke-width="4"/>
-  <path d="M80 40 L104 52 L104 78 C104 100 94 114 80 122 C66 114 56 100 56 78 L56 52 Z" fill="#0a1a4d"/>
-  <path d="M70 80 L78 90 L92 68" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="80" y="136" font-family="Poppins, sans-serif" font-size="10" font-weight="700" fill="#0a1a4d" text-anchor="middle" letter-spacing="1.2">NIST SECURE</text>
-</svg>

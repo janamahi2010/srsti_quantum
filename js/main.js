@@ -2,24 +2,6 @@
   'use strict';
 
   /* ---------------------------------------------------------------
-     Social links - single source of truth for every footer across
-     the site. Update a URL here once instead of in every HTML file.
-  --------------------------------------------------------------- */
-  var SOCIAL_LINKS = {
-    linkedin: '#',
-    twitter: '#',
-    github: '#'
-  };
-
-  document.querySelectorAll('[data-social]').forEach(function (link) {
-    var url = SOCIAL_LINKS[link.getAttribute('data-social')];
-    if (!url || url === '#') return;
-    link.href = url;
-    link.target = '_blank';
-    link.rel = 'noopener noreferrer';
-  });
-
-  /* ---------------------------------------------------------------
      Mobile nav toggle
   --------------------------------------------------------------- */
   var hamburger = document.getElementById('hamburgerBtn');

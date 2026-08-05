@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
-  <polygon points="80,10 149,80 80,150 11,80" fill="none" stroke="#0a1a4d" stroke-width="4"/>
-  <circle cx="80" cy="80" r="52" fill="none" stroke="#0a1a4d" stroke-width="2"/>
-  <path d="M80 50 L94 70 L80 90 L66 70 Z" fill="#0a1a4d"/>
-  <text x="80" y="112" font-family="Poppins, sans-serif" font-size="15" font-weight="800" fill="#0a1a4d" text-anchor="middle" letter-spacing="1">QEDC</text>
-  <text x="80" y="128" font-family="Poppins, sans-serif" font-size="9" font-weight="600" fill="#0a1a4d" text-anchor="middle" letter-spacing="1.5">MEMBER</text>
-</svg>

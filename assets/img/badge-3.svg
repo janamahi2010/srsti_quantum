@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
-  <circle cx="80" cy="80" r="72" fill="none" stroke="#0a1a4d" stroke-width="4" stroke-dasharray="6 5"/>
-  <circle cx="80" cy="80" r="56" fill="#0a1a4d"/>
-  <path d="M62 78 L74 92 L100 62" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="80" y="118" font-family="Poppins, sans-serif" font-size="13" font-weight="800" fill="#0a1a4d" text-anchor="middle" letter-spacing="1">SOC 2</text>
-  <text x="80" y="132" font-family="Poppins, sans-serif" font-size="9" font-weight="600" fill="#0a1a4d" text-anchor="middle" letter-spacing="1.5">COMPLIANT</text>
-</svg>
