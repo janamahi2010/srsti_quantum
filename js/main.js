@@ -68,11 +68,15 @@
 
   /* ---------------------------------------------------------------
      Active nav link detection
+     Normalizes both clean paths (/about) and direct .html requests
+     (/about.html) to the same form before comparing to nav hrefs.
   --------------------------------------------------------------- */
-  var currentPage = location.pathname.split('/').pop() || 'index.html';
+  var currentPath = location.pathname.replace(/index\.html$/, '/').replace(/\.html$/, '');
+  if (currentPath.length > 1 && currentPath.endsWith('/')) {
+    currentPath = currentPath.slice(0, -1);
+  }
   document.querySelectorAll('.nav-link').forEach(function (link) {
-    var linkPage = link.getAttribute('href');
-    if (linkPage === currentPage || (currentPage === '' && linkPage === 'index.html')) {
+    if (link.getAttribute('href') === currentPath) {
       link.classList.add('active');
     }
   });
