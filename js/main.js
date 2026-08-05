@@ -140,7 +140,7 @@
       var id = btn.getAttribute('data-id') || '';
       window.alert(
         'Thanks for your interest in ' + role + ' (Ref: ' + id + ')!\n\n' +
-        'Please email your resume and a short note to careers@srstiquantum.com. ' +
+        'Please email your resume and a short note to careers@srstiquantum.in. ' +
         'Include the role reference in your subject line so our team can route it correctly.'
       );
     });
@@ -178,7 +178,7 @@
       }
     ];
 
-    var CONTACT_EMAIL = 'hello@srstiquantum.com';
+    var CONTACT_EMAIL = 'hello@srstiquantum.in';
 
     contactForm.addEventListener('submit', function (e) {
       e.preventDefault();
