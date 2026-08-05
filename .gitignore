@@ -1,0 +1,4 @@
+# Full-resolution source photos. Kept locally so images can be
+# re-exported at different sizes/quality, but never deployed --
+# the site serves the optimized .webp/.jpg versions instead.
+assets/img/_originals/

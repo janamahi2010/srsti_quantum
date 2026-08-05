@@ -41,6 +41,9 @@ body, h1, h2, h3, h4, p, figure, ul, ol { margin: 0; }
 ul { padding: 0; list-style: none; }
 a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
+/* <picture> wraps photos for WebP/JPG fallback; it must not shrink to
+   inline size or the img's height:100% has nothing to resolve against. */
+.card-img picture, .service-img picture, .process-img picture { display: block; width: 100%; height: 100%; }
 button { font: inherit; cursor: pointer; border: none; background: none; }
 input, textarea, select { font: inherit; }
 
